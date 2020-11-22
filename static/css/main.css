@@ -1,0 +1,66 @@
+#main {
+    padding-top: calc( 74px);
+    
+}
+
+
+@media (min-width: 992px) {
+    #main {
+      padding-top: calc(104px);
+    }
+}
+
+@font-face {
+    font-family: "GYU font";
+    src:
+    url("fonts/Julian.otf") format("opentype");
+}
+
+.navbar-brand{
+    font-family: "GYU font";
+
+}
+
+.hs-bg-primary {
+    background-color: #f35a5a;
+
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .2s, color .2s;
+  }
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    
+    color: #f35a5a;
+    border-color: #f35a5a;
+  }
+#mainNav .navbar-nav li.nav-item a.nav-link.active{
+    background: none;
+    color: white;
+    border-color: #f35a5a;
+  }
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active:hover{ 
+    background: none;
+    color: #f35a5a;
+    
+  }
+.masthead .masthead-avatar {
+    width: 170px;
+    height: 170px;
+
+  }
+.masthead {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url("../img/photo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+@media (min-width: 992px) {
+    .masthead {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+}
